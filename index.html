@@ -1,6 +1,4 @@
-<!DOCTYPE html>
 <style>
-     
   .back {
     position: fixed;
     padding: 0;
@@ -9,10 +7,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgb(20, 155, 38), #000099, #66c2ff, #ffcccc, #ffeee6);
+    background: white;
     animation-name: backdiv;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-duration: 1s;
+animation-iteration-count: infinite;
   }
 
   .heart {
@@ -22,16 +20,16 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgb(255, 158, 174);
+    background-color: pink;
     height: 50px;
     width: 50px;
     transform: rotate(-45deg);
     animation-name: beat;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-duration: 1s;
+animation-iteration-count: infinite;
   }
   .heart:after {
-    background-color: rgb(21, 156, 9);
+    background-color: pink;
     content: "";
     border-radius: 50%;
     position: absolute;
@@ -41,7 +39,7 @@
     left: 25px;
   }
   .heart:before {
-    background-color: rgb(192, 240, 255);
+    background-color: pink;
     content: "";
     border-radius: 50%;
     position: absolute;
@@ -49,72 +47,6 @@
     height: 50px;
     top: -25px;
     left: 0px;
-  }
-
-  #ball {
-    width: 100px;
-    height: 100px;
-    margin: 50px auto;
-    position: relative;
-    border-radius: 50%;
-    background: linear-gradient(
-      35deg,
-      #ccffff,
-      #ffcccc
-    );
-    animation-name: bounce;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-  .stars {
-    background-color: white;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    animation-iteration-count: infinite;
-  }
-
-  .star-1 {
-    margin-top: 25%;
-    margin-left: 75%;
-    animation-name: twinkle-1;
-    animation-duration: 5s;
-  }
-
-  .star-2 {
-    margin-top: 0%;
-    margin-left: 25%;
-    animation-name: twinkle-2;
-    animation-duration: 5s;
-  }
-
-  @keyframes twinkle-1 {
-    50% {
-      transform: scale(0.5);
-      opacity: 0.5;
-    }
-  }
-
-  @keyframes twinkle-2 {
-    20% {
-      transform: scale(0.5);
-      opacity: 0.5;
-    }
-  }
-
-  @keyframes bounce{
-    0% {
-      top: 0px;
-    }
-    50% {
-      top: 249px;
-      width: 130px;
-      height: 70px;
-    }
-    100% {
-      top: 0px;
-    }
   }
 
   @keyframes backdiv {
@@ -131,39 +63,7 @@
       transform: scale(0.6) rotate(-45deg);
     }
   }
-</style>
 
-<html>
-   <head>
-      <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-   </head>
-<body>
-  <h1>Deep Thoughts with Master Camper Cat</h1>
-  <article>
-    <h2>Defeating your Foe: the Red Dot is Ours!</h2>
-    <p>To Come...</p>
-  </article>
-  
-  <img src="samuraiSwords.jpeg">
-  
-  <article>
-    <h2>Is Chuck Norris a Cat Person?</h2>
-    <p>To Come...</p>
-  </article>
-   <div class="back"></div>
-   <div class="heart"></div>
-   <div id="ball"></div>
-   <div class="star-1 stars"></div>
-<div class="star-2 stars"></div>
-</body>
-</html>
-<style>
-
-  
 </style>
+<div class="back"></div>
+<div class="heart"></div>
