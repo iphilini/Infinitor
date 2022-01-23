@@ -19,7 +19,7 @@ animation-iteration-count: infinite;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: pink;
+    background-color: red;
     height: 50px;
     width: 50px;
     transform: rotate(-45deg);
@@ -28,7 +28,7 @@ animation-iteration-count: infinite;
 animation-iteration-count: infinite;
   }
   .heart:after {
-    background-color: pink;
+    background-color: red;
     content: "";
     border-radius: 50%;
     position: absolute;
@@ -38,7 +38,7 @@ animation-iteration-count: infinite;
     left: 25px;
   }
   .heart:before {
-    background-color: pink;
+    background-color: red;
     content: "";
     border-radius: 50%;
     position: absolute;
